@@ -7,11 +7,11 @@ from PIL import Image, ImageTk
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from sensor_msgs.msg import JointState
 
-# Inicializa el nodo de ROS
+# Inicializar ROS
 rospy.init_node('robot_controller', anonymous=True)
 pub = rospy.Publisher('/joint_trajectory', JointTrajectory, queue_size=10)
 
-# Define los límites en radianes para cada articulación
+# Lims de cada joint
 joint_limits = {
     "joint_1": (-math.radians(130), math.radians(90)),
     "joint_2": (-math.radians(45), math.radians(45)),
@@ -20,7 +20,7 @@ joint_limits = {
     "tool": (-math.radians(90), math.radians(90))
 }
 
-# Variables para guardar las posiciones
+# Guardar posiciones
 previous_position = [0, 0, 0, 0, 0]
 current_position = [0, 0, 0, 0, 0]
 
