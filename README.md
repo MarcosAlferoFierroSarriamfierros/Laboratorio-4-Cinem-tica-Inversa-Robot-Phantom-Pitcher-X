@@ -13,7 +13,7 @@ Un (1) manipulador Phantom X Pincher
 
 ## Caracterización del robot y uso de la Toolbox:
 
-Con ayuda de un calibrador se obtuvieron las medidas longitudinales de los eslabones del robot, para posteriormente usar las herramientas del toolbox, se simula el robot dentro del entorno de Matlab con Serial.Link. Con los parámetros DH obtenidos en secciones anteriores, se usó el comando SerialLink para crear el robot. Se hace una función que nos permita obtener las matrices de transformación homogénea:
+Con ayuda de un calibrador se obtuvieron las medidas longitudinales de los eslabones del robot, para posteriormente usar las herramientas del toolbox, se simula el robot dentro del entorno de Matlab con Serial.Link. Con los parámetros DH obtenidos en secciones anteriores, se usó el comando Serial.Link para crear el robot. Se hace una función, que nos permita obtener las matrices de transformación homogénea:
 
 INSERTAR FOTO DE LA FUNCIÓN MTH
 
