@@ -1,5 +1,5 @@
 # Laboratorio 4 Cinemática Directa Robot Phantom X ROS
-Autores: Marcos Alfredo Fierro Sarria y Andrés Camilo Apraez Mora
+Autores: Marcos Alfredo Fierro Sarria y Camilo Andres Apraez Mora
 En el siguiente informe se muestra el proceso realizado para llevar a cabo la actividad propuesta.
 ## Requisitos:
 Ubuntu versión 20.xx preferible 20.04 LTS con ROS.
