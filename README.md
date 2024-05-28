@@ -13,7 +13,8 @@ Un (1) manipulador Phantom X Pincher
 ## Caracterización del robot:
 Con ayuda de un calibrador se obtuvieron las medidas del robot, las cuales puede ver en la imagen:
 
-INSERTAR MEDIDAS
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/6bdfbf48-3116-416d-bbfc-aa1471186cea)
+
 
 ## Análisis:
 Con las medidas obtenidas en el inciso anterior, se procedió a obtener los parámetros DH que caraterizan al robot:
