@@ -5,9 +5,9 @@ from std_srvs.srv import Empty
 from std_msgs.msg import String
 from sensor_msgs.msg import JointState
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
-from pynput.keyboard import Key, Listener, KeyCode  # keyboard input
+from pynput.keyboard import Key, Listener, KeyCode  
 
-# Define los límites en radianes para cada articulación
+
 joint_limits = {
     "joint_1": (-math.radians(130), math.radians(90)),
     "joint_2": (-math.radians(45), math.radians(45)),
@@ -46,7 +46,7 @@ Para posicionar el robot, presione la tecla correspondiente y luego Enter:
             2:  Posición 2     (25, 25, 20, -20, 0.)
             3:  Posición 3     (-35,35, -30, 30, 0.)
             4:  Posición 4     (85, -20, 55, 25, 0.)
-            5:  Posición 5     (80, -35, 55, 45, 10)
+            5:  Posición 5     (80, -35, 55, 45, 0)
 
                   """
     rospy.loginfo(welcome)
