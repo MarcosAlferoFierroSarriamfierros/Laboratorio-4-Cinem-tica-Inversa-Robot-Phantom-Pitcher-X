@@ -23,6 +23,7 @@ INSERTAR TABLA DH
 ## ROS:
 Primero se debe asegurar de tener instalados todos los programas necesarios para hacer el entorno de Catkin y ROS, en caso de que use una máquina virtual, puede que experimente fallas de conexión con el puerto serial del dispositivo, lo que impedirá acceder al robot, por ende, es de menester que el lector instale el Extension Pack correspondiente a la versión de la máquina virtual que haya instalado para tener acceso a todos los drivers que requiere la máquina.
 Una vez que se tengan los archivos de Catkin, se crean los scripts en las carpeta "src" dentro de los archivos de Dynamixel, el cual está contenido dentro de Catkin. Se debe lanzar el entorno ejecutando los comandos que se muestran:
+
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/037ce11b-3fac-48d9-a0ac-68da6507c394)
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/81bdaf84-1c5f-49a1-817f-db6df11cc27c)
