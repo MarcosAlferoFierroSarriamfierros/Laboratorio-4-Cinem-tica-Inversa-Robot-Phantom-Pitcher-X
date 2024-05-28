@@ -36,7 +36,7 @@ Una vez que se tengan los archivos de Catkin, se crean los scripts en las carpet
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/f48d4eeb-767c-4e75-82c9-ce9f26d22e5e)
 
-También se debe editar el archivo basic.yaml, el cual define etiquetas de identificación para las juntas y que viene en la carpeta:
+También se debe editar el archivo basic.yaml, el cual define etiquetas de identificación para los joints, este archivo podría ser cargado por un nodo que inicializa los motores de las articulacione según su ID, esto lo podemos ver en la carpeta:
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/b540ed24-be6e-44e3-9364-db425f563936)
 
