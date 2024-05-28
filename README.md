@@ -10,10 +10,32 @@ Python o MATLAB 2015b o superior instalado en el equipo.
 Robotics toolbox de Mathworks (Disponible desde la versión 2015 en adelante).
 Toolbox de robótica de Peter Corke.
 Un (1) manipulador Phantom X Pincher
-## Caracterización del robot:
-Con ayuda de un calibrador se obtuvieron las medidas del robot, las cuales puede ver en la imagen:
 
-![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/6bdfbf48-3116-416d-bbfc-aa1471186cea)
+## Caracterización del robot y uso de la Toolbox:
+
+Con ayuda de un calibrador se obtuvieron las medidas longitudinales de los eslabones del robot, para posteriormente usar las herramientas del toolbox, se simula el robot dentro del entorno de Matlab con Serial.Link. Con los parámetros DH obtenidos en secciones anteriores, se usó el comando SerialLink para crear el robot. Se hace una función que nos permita obtener las matrices de transformación homogénea:
+
+INSERTAR FOTO DE LA FUNCIÓN MTH
+
+Se plotean las distintas posiciones:
+
+Mostramos las poses del robot:
+
+![Home](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/d6b3f6d7-2756-4c16-8d5f-d4991b6c1e8f)
+
+
+![Pose2](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/658b5c4c-70e8-41af-9ad1-0c8db249d758)
+
+
+![Pose3](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/a8e6495a-1bca-4c25-a35c-e4e93e2f8c0e)
+
+
+![Pose4](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/d7341b7e-ae26-4dfa-9d01-904615bbfc89)
+
+
+![Pose5](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/2da783d8-9884-4bf2-829d-919d914475a4)
+
+
 
 
 ## Análisis:
@@ -25,6 +47,10 @@ INSERTAR TABLA DH
 Primero se debe asegurar de tener instalados todos los programas necesarios para hacer el entorno de Catkin y ROS, para así manipular los archivos necesarios para realizar práctica, en caso de que use una máquina virtual, puede que experimente fallas de conexión con el puerto serial del dispositivo, lo que impedirá acceder al robot, por ende, es de menester que el lector instale el Extension Pack correspondiente a la versión de la máquina virtual que haya instalado para tener acceso a todos los drivers (en este caso USB 3.0) para que reconozca el puerto USB0.
 Una vez que se tengan los archivos de Catkin, se crean los scripts en las carpeta "src" dentro de los archivos de Dynamixel, el cual está contenido dentro de Catkin. Se debe lanzar el entorno ejecutando los comandos que se muestran:
 
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/f48d4eeb-767c-4e75-82c9-ce9f26d22e5e)
+
+A continuación podemos ver, las carpetas ya mencionadas:
+
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/037ce11b-3fac-48d9-a0ac-68da6507c394)
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/81bdaf84-1c5f-49a1-817f-db6df11cc27c)
@@ -34,7 +60,6 @@ Una vez que se tengan los archivos de Catkin, se crean los scripts en las carpet
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/9d382dbc-e5cd-40a7-956d-223d615ca2f4)
 
 
-![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/f48d4eeb-767c-4e75-82c9-ce9f26d22e5e)
 
 También se debe editar el archivo basic.yaml, el cual define etiquetas de identificación para los joints, este archivo podría ser cargado por un nodo que inicializa los motores de las articulacione según su ID, esto lo podemos ver en la carpeta:
 
@@ -63,28 +88,6 @@ Usamos este software para verificar la conexión entre el computador y el robot,
 
 INSERTAR FOTO DEL DYNAMIXEL
 
-## Toolbox
-Usando las herramientas del toolbox, se simula el robot dentro del entorno de Matlab. Con los parámetros DH obtenidos en secciones anteriores, se usó el comando SerialLink para crear el robot. Se hace una función que nos permita obtener las matrices de transformación homogénea:
-
-INSERTAR FOTO DE LA FUNCIÓN MTH
-
-Se plotean las distintas posiciones:
-
-Mostramos las poses del robot:
-
-![Home](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/d6b3f6d7-2756-4c16-8d5f-d4991b6c1e8f)
-
-
-![Pose2](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/658b5c4c-70e8-41af-9ad1-0c8db249d758)
-
-
-![Pose3](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/a8e6495a-1bca-4c25-a35c-e4e93e2f8c0e)
-
-
-![Pose4](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/d7341b7e-ae26-4dfa-9d01-904615bbfc89)
-
-
-![Pose5](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/2da783d8-9884-4bf2-829d-919d914475a4)
 
 
 ## Python + ROS + Toolbox
