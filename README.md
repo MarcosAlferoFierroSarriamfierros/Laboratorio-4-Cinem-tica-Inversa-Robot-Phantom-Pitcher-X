@@ -41,11 +41,25 @@ También se debe editar el archivo basic.yaml, el cual define etiquetas de ident
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/b540ed24-be6e-44e3-9364-db425f563936)
 
 
-El código presentado: Lab42v1.py, ofrece una serie de poses que el usuario puede seleccionar através de la terminal y las cuales, el robot ejecuta, también se hace una función para delimitar límites en las juntas del robot para evitar que el mismo vea comprometido su equilibrio:
+El código presentado: Lab42v1.py, ofrece una serie de poses que el usuario puede seleccionar a través de la terminal y las cuales, el robot ejecuta
 
 ![Imagen de WhatsApp 2024-05-27 a las 19 52 47_a9ed55db](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/73545192/bd171368-a33d-4823-a7b9-2b22dd07efab)
 
-También se verificó la conexión entre el computador y el robot con la ayuda de Dynamixel, además de identificar el cero para establecer el Home del robot:
+En general este código lo que hace es lo siguiente:
+
+*Inicialización y Configuración: La función joint_publisher() inicia un nodo ROS, crea un publicador para el tópico /joint_trajectory y muestra un mensaje de bienvenida con las instrucciones.
+
+*Input del Usuario: En un bucle, el programa espera que el usuario ingrese un comando. Según la tecla ingresada, se selecciona una posición predefinida para las articulaciones.
+
+*Verificación de Límites: La función are_positions_within_limits(positions) verifica que las posiciones deseadas estén dentro de los límites permitidos.
+
+*Publicación de la Trayectoria: Si las posiciones están dentro de los límites, se crea un mensaje JointTrajectory, se configura con las posiciones y se publica en el tópico /joint_trajectory.
+
+*Suscripción para Estados de Articulaciones: Si el usuario ingresa '0', se llama a la función listener() que suscribe al nodo a los estados de las articulaciones y ejecuta la función de callback.
+
+## Dynamixel
+
+Usamos este software para verificar la conexión entre el computador y el robot, además de identificar el cero para establecer el Home del robot, como también los límites para cada motor, esto se podría extrapolar a cualquier tipo de robot, dada sus características:
 
 INSERTAR FOTO DEL DYNAMIXEL
 
