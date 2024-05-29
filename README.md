@@ -65,9 +65,11 @@ end
 donde introducimos los parámetros obtenidos de la tabla DH, para así hallar las MTH de cada eslabón:
 
 *MTH1*
+
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/637a8270-b518-423e-91ca-fbfd83638ad2)
 
 *MTH2*
+
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/77f4acc3-1aed-481c-9a51-0fa23c0bb1f1)
 
 *MTH3*
