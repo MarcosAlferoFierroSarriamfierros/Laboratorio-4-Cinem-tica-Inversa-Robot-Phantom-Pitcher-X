@@ -18,6 +18,11 @@ Un (1) manipulador Phantom X Pincher
 
 Con ayuda de un calibrador se obtuvieron las medidas longitudinales de los eslabones del robot y con el programa dynamixel que ya se abordará más adelante podíamos ver los offset de los ángulos, en este caso home para conveniencia y así posteriormente usar las herramientas del toolbox, se simula el robot dentro del entorno de Matlab con Serial.Link y para la creación de la herramienta se usó .tool, para de esta manera asegurar la correcta orientación de la misma, el punto que tomamos fue en el centro del tcp, en este caso de la pinza. Todo ello, lo podemos, ver en el script https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/blob/main/Laboratorio_cinematica_directa.mlx.
 
+Se inicia con el análisis de las articulaciones y eslabones del robot Phantom X Pincher:
+
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/fe93a4a8-ab39-4b70-9e85-b26bd74a9bb9)
+
+
 A continuación, podemos ver la tabla DH obtenida:
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/4ac89c02-768a-4f35-810f-db7aa3fffc91)
@@ -181,4 +186,32 @@ Definimos dos logos, uno con nuestras iniciales con un robot y otro con un robot
 ![Imagen de WhatsApp 2024-05-27 a las 09 04 48_6248d230](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/3ec548d8-6bde-4f84-b05d-48f9092e034a)
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/804f374a-f02c-4405-b2bb-ec97e14d8206)
+
+### Conclusiones
+
+1. **Implementación Exitosa del Entorno de Trabajo**:
+   - La configuración del entorno en Ubuntu 20.04 LTS con ROS y la correcta configuración del espacio de trabajo Catkin permitieron la integración eficiente de los paquetes Dynamixel Workbench y el paquete del robot Phantom X. Esto facilitó la manipulación y control del robot Phantom X Pincher.
+
+2. **Precisión en la Caracterización del Robot**:
+   - Se realizó una detallada caracterización del robot Phantom X Pincher utilizando herramientas de medición como un calibrador. Los datos obtenidos fueron fundamentales para la correcta simulación y análisis cinemático del robot en MATLAB.
+
+3. **Uso Efectivo de MATLAB y Toolboxes**:
+   - La utilización de MATLAB junto con la Robotics Toolbox de Mathworks y la Toolbox de Peter Corke permitió la simulación precisa del robot. La implementación de la cinemática directa mediante la tabla DH y la función personalizada para calcular las matrices de transformación homogénea (MTH) demostró ser efectiva y precisa.
+
+4. **Comparación Visual y Validación Experimental**:
+   - La comparación de las posiciones simuladas del robot en MATLAB con las imágenes reales del manipulador Phantom X Pincher evidenció la precisión de la simulación. Las poses definidas se replicaron con exactitud en el entorno real, validando así el modelo matemático utilizado.
+
+5. **Integración con ROS y Dynamixel**:
+   - La integración con ROS y el uso del software Dynamixel facilitó el control y monitoreo de las articulaciones del robot. La edición del archivo `basic.yaml` y la creación de scripts en la carpeta `src` dentro de Catkin fueron pasos cruciales para la correcta manipulación del robot a través de ROS.
+
+6. **Desarrollo de Interfaz Gráfica en Python**:
+   - La implementación de una interfaz gráfica en Python permitió una interacción más amigable y eficiente con el robot. A pesar de los ajustes necesarios para evitar problemas de equilibrio en la pose 4, la interfaz gráfica demostró ser una herramienta útil para la visualización y control del robot.
+
+7. **Ajustes y Mejoras Realizadas**:
+   - La identificación y ajuste de los límites de las articulaciones fueron esenciales para asegurar la estabilidad y seguridad del robot durante las operaciones. Estos ajustes reflejan una atención meticulosa a los detalles y la comprensión de las limitaciones físicas del robot.
+
+8. **Contribuciones Adicionales y Creatividad**:
+   - El diseño de logos personalizados, aunque no se pudo integrar en la interfaz por falta de tiempo, muestra un esfuerzo adicional en personalizar y profesionalizar el proyecto. Estos detalles, aunque menores, contribuyen a la identidad visual y presentación del trabajo.
+
+En resumen, el proyecto demuestra una implementación exitosa y detallada del control y simulación del robot Phantom X Pincher, combinando diversas herramientas y plataformas (MATLAB, ROS, Python) para lograr una solución robusta y precisa. La atención al detalle, desde la caracterización del robot hasta los ajustes en las poses y la interfaz gráfica, refleja un profundo entendimiento técnico y capacidad de resolución de problemas.
 
