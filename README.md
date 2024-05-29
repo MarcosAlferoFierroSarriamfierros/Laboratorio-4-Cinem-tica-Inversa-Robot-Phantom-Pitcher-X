@@ -29,7 +29,8 @@ A continuación, podemos ver la tabla DH obtenida:
 
 a partir de ello, medio una función creada por nosotros:
 
-% function T = calcular_DH(theta, d, a, alpha)
+```matlab
+function T = calcular_DH(theta, d, a, alpha)
     % Convertir ángulos de grados a radianes si es necesario
     if ischar(theta)
         theta_sym = str2sym(theta); % Convertir la cadena a un símbolo
@@ -39,8 +40,7 @@ a partir de ello, medio una función creada por nosotros:
         theta = deg2rad(theta); % Convertir de grados a radianes
     end
 
-    Convertir distancias a números simbólicos si es necesario
-    
+    % Convertir distancias a números simbólicos si es necesario
     if ischar(d)
         d = str2sym(d);
     end
@@ -69,6 +69,7 @@ a partir de ello, medio una función creada por nosotros:
         T = simplify(T); % Simplificar la expresión simbólica
     end
 end
+
 
 donde introducimos los parámetros obtenidos de la tabla DH, para así hallar las MTH de cada eslabón:
 
