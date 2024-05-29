@@ -113,7 +113,7 @@ Se plotean las distintas posiciones y de una vez realizamos la comparación con 
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/4c84fc7d-bad5-4b3e-9e7e-0155cfdbe20e)
 
-*Pose3 q3 = [-35, 35, -30, 30] *
+*Pose3 q3 = [-35, 35, -30, 30]*
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/5cb9ce91-0600-4fc3-8a63-acef36691275)
 
