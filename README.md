@@ -97,7 +97,9 @@ A continuación encontramos la MTH, representada desde la base hasta el tcp, es 
 
 Se plotean las distintas posiciones y de una vez realizamos la comparación con las imágenes reales del manipulador PhantomX Pincher, de acuerdo a las poses que sugeríamos desde la interfaz:
 
-Mostramos las poses del robot:
+# Gráficas digitales vs Imágenes reales
+
+
 
 
 
