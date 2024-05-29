@@ -187,6 +187,12 @@ Definimos dos logos, uno con nuestras iniciales con un robot y otro con un robot
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/804f374a-f02c-4405-b2bb-ec97e14d8206)
 
+## Video del funcionamiento de interfaz gráfica 
+
+A continuación presentamos el video de la interfaz gráfica, junto a las poses determinadas para la práctica que toma el robot después de aplicar los botones correspondientes de la interfaz:
+
+https://youtu.be/2NLR2nmDH0o
+
 ### Conclusiones
 
 1. **Implementación Exitosa del Entorno de Trabajo**:
