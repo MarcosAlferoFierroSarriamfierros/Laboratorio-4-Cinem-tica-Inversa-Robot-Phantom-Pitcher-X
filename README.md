@@ -29,7 +29,7 @@ A continuación, podemos ver la tabla DH obtenida:
 
 a partir de ello, medio una función creada por nosotros:
 
-function T = calcular_DH(theta, d, a, alpha)
+% function T = calcular_DH(theta, d, a, alpha)
     % Convertir ángulos de grados a radianes si es necesario
     if ischar(theta)
         theta_sym = str2sym(theta); % Convertir la cadena a un símbolo
@@ -39,7 +39,8 @@ function T = calcular_DH(theta, d, a, alpha)
         theta = deg2rad(theta); % Convertir de grados a radianes
     end
 
-    % Convertir distancias a números simbólicos si es necesario
+    Convertir distancias a números simbólicos si es necesario
+    
     if ischar(d)
         d = str2sym(d);
     end
