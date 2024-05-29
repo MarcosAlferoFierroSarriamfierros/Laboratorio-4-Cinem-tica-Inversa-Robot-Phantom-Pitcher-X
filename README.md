@@ -81,14 +81,16 @@ donde introducimos los parámetros obtenidos de la tabla DH, para así hallar la
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/842aa97e-6dad-4996-8733-c728d1c094a0)
 
 *MTH4_tool*
+
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/9987d431-d724-4051-aad1-1ef319bf067e)
+
 En esta MTH, solo vemos una traslación con respecto al eslabón 4, la cual es la distancia en "Z", del joint 4 hasta la mitad de la pinza, que es lo que habíamos mencionado anteriormente.
 
 *MTH_base_tcp*
 
 A continuación encontramos la MTH, representada desde la base hasta el tcp, es decir la cinemática directa.
 
-![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/dac6d32b-4bd5-4d8c-9772-4a809c55ca63)
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/8b5ff03c-8a52-4bd7-acf0-780aa29837e5)
 
 
 Se plotean las distintas posiciones y de una vez realizamos la comparación con las imágenes reales del manipulador PhantomX Pincher, de acuerdo a las poses que sugeríamos desde la interfaz:
