@@ -164,7 +164,8 @@ En general este código lo que hace es lo siguiente:
 
 Usamos este software para verificar la conexión entre el computador y el robot, además de identificar el cero para establecer el Home del robot, como también los límites para cada motor, esto se podría extrapolar a cualquier tipo de robot, dada sus características:
 
-INSERTAR FOTO DEL DYNAMIXEL
+![Imagen de WhatsApp 2024-05-28 a las 20 21 28_a21c3874](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/f8475770-1177-4646-be2b-335b84d6edce)
+
 
 
 
