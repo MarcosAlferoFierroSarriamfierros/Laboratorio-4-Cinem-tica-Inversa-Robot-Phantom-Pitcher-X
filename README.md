@@ -97,10 +97,27 @@ A continuación encontramos la MTH, representada desde la base hasta el tcp, es 
 
 Se plotean las distintas posiciones y de una vez realizamos la comparación con las imágenes reales del manipulador PhantomX Pincher, de acuerdo a las poses que sugeríamos desde la interfaz:
 
-# Gráficas digitales vs Imágenes reales
+### Gráficas digitales vs Imágenes reales
 
+*Home*
 
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/21c9ad0b-f3bb-41e4-9741-0e56354a09bf)
 
+*Pose2*
+
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/4c84fc7d-bad5-4b3e-9e7e-0155cfdbe20e)
+
+*Pose3*
+
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/5cb9ce91-0600-4fc3-8a63-acef36691275)
+
+*Pose4*
+
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/239ec29e-2408-43a6-87bc-e7c337e9aafa)
+
+*Pose5*
+
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/9d95932b-d636-41bb-a365-8c3bfec881c9)
 
 
 
