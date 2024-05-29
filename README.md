@@ -99,27 +99,26 @@ Se plotean las distintas posiciones y de una vez realizamos la comparación con 
 
 ### Gráficas digitales vs Imágenes reales
 
-*Home*
+*Home: q1 = [0, 0, 0, 0]*
+
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/21c9ad0b-f3bb-41e4-9741-0e56354a09bf)
 
-*Pose2*
+*Pose2: q2 = [25, 25, 20, -20]*
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/4c84fc7d-bad5-4b3e-9e7e-0155cfdbe20e)
 
-*Pose3*
+*Pose3 q3 = [-35, 35, -30, 30] *
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/5cb9ce91-0600-4fc3-8a63-acef36691275)
 
-*Pose4*
+*Pose4 q4 = [85, -20, 55, 25]*
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/239ec29e-2408-43a6-87bc-e7c337e9aafa)
 
-*Pose5*
+*Pose5 q5 = [0, 0, 90, 0]*
 
 ![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/9d95932b-d636-41bb-a365-8c3bfec881c9)
-
-
 
 
 
@@ -178,5 +177,7 @@ Finalmente, con el script realizado anteriormente, hacemos una interfaz gráfica
 Definimos dos logos, uno con nuestras iniciales con un robot y otro con un robot que tiene las iniciales de la UNAL, en la interfaz tuvimos este incoveniente de ponerlo, por cuestión de tiempo no se pudo solucionar pero se espera poder colocarlo, pero se presentan a continuación:
 
 
+![Imagen de WhatsApp 2024-05-27 a las 09 04 48_6248d230](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/3ec548d8-6bde-4f84-b05d-48f9092e034a)
 
+![image](https://github.com/MarcosAlferoFierroSarriamfierros/Laboratorio-4-Cinem-tica-Inversa-Robot-Phantom-Pitcher-X/assets/83042758/804f374a-f02c-4405-b2bb-ec97e14d8206)
 
