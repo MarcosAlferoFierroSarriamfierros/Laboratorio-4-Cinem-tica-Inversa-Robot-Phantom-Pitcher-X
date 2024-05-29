@@ -1,5 +1,7 @@
 # Laboratorio 4 Cinemática Directa Robot Phantom X ROS
-Autores: Marcos Alfredo Fierro Sarria y Camilo Andres Apraez Mora
+
+## Autores: Marcos Alfredo Fierro Sarria y Camilo Andres Apraez Zamora
+
 En el siguiente informe se muestra el proceso realizado para llevar a cabo la actividad propuesta.
 
 ## Requisitos:
